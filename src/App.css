@@ -6,3 +6,16 @@
 .logo{
     font-family: Inter-ExtraBold;
 }
+
+#btnRead{
+    background-color: #FF5733;
+    font-family: Inter-ExtraBold;
+    padding: 10px 20px 10px 20px;
+    font-size: 15px;
+    border: 0;
+}
+
+#btnRead:hover{
+    transition: 1s;
+    background-color: black;
+}

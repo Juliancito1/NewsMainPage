@@ -1,4 +1,4 @@
-import {Container,Row,Col} from "react-bootstrap"
+import {Container,Row,Col, Button} from "react-bootstrap"
 import ImgBanner from "../../assets/image-web-3-desktop.jpg"
 const Banner = () => {
     return (
@@ -20,9 +20,9 @@ const Banner = () => {
                 </aside>
             </Col>
             <Col lg={4} className="mt-3">
-                <p className="lead">We dive into the next evolution of the web that claims to put the power of the platforms back into the hands of the people. But is really fulfilling its promise?</p>
+                <p className="lead fs-5">We dive into the next evolution of the web that claims to put the power of the platforms back into the hands of the people. But is really fulfilling its promise?</p>
                 <div>
-                    
+                    <Button className="btn btn-dark rounded-0" id="btnRead"><span>R E A D </span> <span className="ms-3"> M O R E</span></Button>
                 </div>
             </Col>
             </Row>
