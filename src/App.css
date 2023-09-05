@@ -3,8 +3,17 @@
     src: url(./assets/fonts/Inter-ExtraBold.ttf);
 }
 
+@font-face {
+    font-family: Inter-Regular;
+    src: url(./assets//fonts/Inter-Regular.ttf);
+}
+
 .logo{
     font-family: Inter-ExtraBold;
+}
+
+#root{
+    font-family: Inter-Regular;
 }
 
 #btnRead{
@@ -27,4 +36,9 @@
 .news-side:hover{
     transition: 1s;
     color: #f59f00;
+}
+
+#navlink:hover{
+    transition: 0.1s;
+    color: #f59f00 !important;
 }
