@@ -8,11 +8,11 @@ const Menu = () => {
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="ms-auto">
-            <Nav.Link href="#home">Home</Nav.Link>
-            <Nav.Link href="#link">New</Nav.Link>
-            <Nav.Link href="#link">Popular</Nav.Link>
-            <Nav.Link href="#link">Trending</Nav.Link>
-            <Nav.Link href="#link">Categories</Nav.Link>
+            <Nav.Link href="#home" id="navlink">Home</Nav.Link>
+            <Nav.Link href="#link" id="navlink">New</Nav.Link>
+            <Nav.Link href="#link" id="navlink">Popular</Nav.Link>
+            <Nav.Link href="#link" id="navlink">Trending</Nav.Link>
+            <Nav.Link href="#link" id="navlink">Categories</Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Container>
