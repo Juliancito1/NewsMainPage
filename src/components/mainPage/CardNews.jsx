@@ -8,7 +8,7 @@ const CardNews = () => {
       <Row>
         <Col lg={4} className="border-0">
           <div className="d-flex">
-            <img className="w-25" src={retroPc} alt="" />
+            <img className="img-news" src={retroPc} alt="" />
             <Col lg={7} className="ms-3">
                 <h2 className="text-secondary">01</h2>
                 <a className="text-decoration-none" href="">
@@ -18,9 +18,9 @@ const CardNews = () => {
             </Col>
           </div>
         </Col>
-        <Col lg={4} className="border-0">
+        <Col lg={4} className="border-0 my-5 my-lg-0">
           <div className="d-flex">
-            <img className="w-25" src={laptops} alt="" />
+            <img className="img-news" src={laptops} alt="" />
             <Col lg={7} className="ms-3">
                 <h2 className="text-secondary">02</h2>
                 <a href="" className="text-decoration-none text-dark">
@@ -30,9 +30,9 @@ const CardNews = () => {
             </Col>
           </div>
         </Col>
-        <Col lg={4} className="border-0">
+        <Col lg={4} className="border-0 mb-5 mb-lg-0">
           <div className="d-flex">
-            <img className="w-25" src={gaming} alt="" />
+            <img className="img-news" src={gaming} alt="" />
             <Col lg={7} className="ms-3">
                 <h2 className="text-secondary">03</h2>
                 <a href="" className="text-decoration-none text-dark">

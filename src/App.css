@@ -47,3 +47,8 @@
     transition: 0.5s;
     color: #f59f00;
 }
+
+.img-news{
+    height: 150px;
+    object-fit: cover;
+}
