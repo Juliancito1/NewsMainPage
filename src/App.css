@@ -19,3 +19,12 @@
     transition: 1s;
     background-color: black;
 }
+
+.news{
+    background-color: rgb(11, 2, 53);
+}
+
+.news-side:hover{
+    transition: 1s;
+    color: #f59f00;
+}
