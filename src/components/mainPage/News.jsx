@@ -2,7 +2,7 @@ import { Container } from "react-bootstrap";
 
 const News = () => {
     return (
-        <Container className="border news p-3">
+        <Container className="border news p-3 mt-4 mt-lg-0">
             <h2 className="text-warning mt-4 display-6 fw-bold">New</h2>
             <article className="text-light my-4">
                 <a href="" className="text-decoration-none text-light"><h4 className="news-side fw-bold">

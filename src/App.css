@@ -40,5 +40,10 @@
 
 #navlink:hover{
     transition: 0.1s;
-    color: #f59f00 !important;
+    color: #f59f00 ;
+}
+
+.newsCard:hover{
+    transition: 0.5s;
+    color: #f59f00;
 }
