@@ -9,15 +9,15 @@ const Banner = () => {
             <section>
                 <img src={ImgBanner} className="w-100"></img>
             </section>
-            <Row>
+            <Row className="mt-3">
             <Col lg={5}>
                 <aside>
-            <h3 className="display-4 fw-bold">The Brigth Future of Web 3.0?</h3>
+            <h3 className="display-3 fw-bolder">The Brigth Future of Web 3.0?</h3>
                 </aside>
             </Col>
             <Col lg={6} className="mt-3">
                 <p className="lead fs-5">We dive into the next evolution of the web that claims to put the power of the platforms back into the hands of the people. But is really fulfilling its promise?</p>
-                <div>
+                <div className="mt-4">
                     <Button className="btn btn-dark rounded-0" id="btnRead"><span>R E A D </span> <span className="ms-3"> M O R E</span></Button>
                 </div>
             </Col>
